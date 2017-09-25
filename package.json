@@ -1,0 +1,23 @@
+{
+    "name": "com.bjss.pdf",
+    "displayName": "CordovaPDFRendererPlugin",
+    "version": "1.0.0",
+    "description": "A sample Cordova plugin that surfaces the functionality of the Android PDFRenderer API.",
+    "author": "john.riley@bjss.com",
+    "dependencies": {
+        "cordova": "^7.0.1",
+        "cordova-android": "^6.2.3",
+        "cordova-plugin-whitelist": "^1.3.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    },
+    "scripts": {
+        "test:android": "cordova-paramedic --cleanUpAfterRun --verbose --platform android --plugin ."
+    }
+}
